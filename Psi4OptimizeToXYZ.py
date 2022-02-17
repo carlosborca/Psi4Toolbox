@@ -2,8 +2,8 @@
 
 # -*- coding: utf-8 -*-
 """
-This is code is designed to extract molecular geometries out of a Psi4 
-geometry optimization output file to create and XYZ trajectory file.
+This code is designed to extract molecular geometries out of a Psi4 
+geometry optimization output file to create an XYZ trajectory file.
 """
 
 #
@@ -63,8 +63,8 @@ def createParser():
     # For the argument parser. An example of usage and a description of what this script does.
     exas =  "python {} 'h2o.out' -t h2o.xyz".format(sys.argv[0])
     docs =  "Psi4Toolbox: Automated scripts to post process Psi4 output files"
-    docs += "This is code is designed to extract molecular geometries out of a Psi4"
-    docs += "geometry optimization output file to create and XYZ trajectory file."
+    docs += "This code is designed to extract molecular geometries out of a Psi4"
+    docs += "geometry optimization output file to create an XYZ trajectory file."
     epis =  "Thank you for using the Psi4Toolbox."
 
     # Help strings.
